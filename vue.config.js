@@ -1,6 +1,6 @@
 module.exports = {
   runtimeCompiler: true,
-  publicPath: '',
+  publicPath: '.',
   chainWebpack: config => {
     // workaround taken from webpack/webpack#6642
     config.output

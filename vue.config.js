@@ -2,7 +2,7 @@ module.exports = {
   runtimeCompiler: true,
   publicPath: '.',
   chainWebpack: config => {
-    // workaround taken from webpack/webpack#6642
+    // workaround taken from webpack/webpack #6642
     config.output
       .globalObject('this')
     // Tell that our main wasm file needs to be loaded by file loader

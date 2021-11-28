@@ -951,17 +951,17 @@
     },
     {
       "id": "CON western Per",
-      "lines": [[17448, 18246, 18614, 18532, 17358, 15863, 14328, 13268], [15863, 14576, 14354, 13254]],
+      "lines": [[9884, 14576, 14328, 17932, 18246, 13209, 13914, 9884]],
       "image": {
         "file": "illustrations/perseus.webp",
-        "size": [512, 512],
+        "size": [1024, 1024],
         "anchors": [
-          {"pos": [164, 323], "hip": 18532},
-          {"pos": [299, 175], "hip": 15863},
-          {"pos": [385, 386], "hip": 13254}
+          {"pos": [255, 275], "hip": 18532},
+          {"pos": [325, 120], "hip": 15863},
+          {"pos": [450, 275], "hip": 13254}
         ]
       },
-      "common_name": {"english": "Hero", "native": "Perseus"},
+      "common_name": {"english": "The Emirates", "native": "The Emirates"},
       "iau": "Per"
     },
     {

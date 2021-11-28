@@ -202,4 +202,20 @@ export default {
     width: 300px;
   }
 }
+
+.attribution-container {
+  text-align: right;
+  margin: 6px;
+}
+
+.attribution-container .hearth {
+  color: red;
+}
+
+.stellarium-logo-container {
+  display: block;
+}
+.stellarium-logo-container span {
+  color: #fff;
+}
 </style>

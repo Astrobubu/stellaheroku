@@ -95,21 +95,6 @@
       "iau": "Cet"
     },
     {
-      "id": "CON western Ari",
-      "lines": [[13209, 9884, 8903, 8832]],
-      "image": {
-        "file": "illustrations/aries.webp",
-        "size": [256, 256],
-        "anchors": [
-          {"pos": [12, 130], "hip": 13209},
-          {"pos": [58, 206], "hip": 13914},
-          {"pos": [210, 47], "hip": 8832}
-        ]
-      },
-      "common_name": {"english": "Ram", "native": "Aries"},
-      "iau": "Ari"
-    },
-    {
       "id": "CON western Sct",
       "lines": [[92175, 92202, 92814, 90595, 91117, 92175]],
       "image": {

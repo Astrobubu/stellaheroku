@@ -100,6 +100,21 @@
       <date-time-picker v-model="pickerDate" :location="$store.state.currentLocation"></date-time-picker>
     </v-menu>
 
+    <div class="attribution-container">
+      <div>
+        Made with <span class="hearth">❤</span> during️<br />
+
+      </div>
+      <br />
+      <div>Based on awesome</div>
+
+      <a target="_blank" href="https://github.com/Stellarium/stellarium-web-engine" class="stellarium-logo-container">
+        <img class="tbtitle hidden-sm-and-down" id="stellarium-web-toolbar-logo" src="@/assets/images/logo.svg" width="30" height="30" alt="Stellarium Web Logo"/>
+        <span class="tbtitle">Stellarium<sup>Web</sup></span>
+      </a>
+      <div>We all stand on the shoulders of giants</div>
+    </div>
+
   </div>
 </template>
 

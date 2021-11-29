@@ -46,7 +46,7 @@ export default {
 <style>
 .cover {
   object-fit: cover;
-  width: 1080px;
-  height: 675px;
+  width: 540px;
+  height: 338px;
 }
 </style>

@@ -97,7 +97,7 @@
     <v-spacer></v-spacer>
     <div class="attribution-container">
       <div>
-        Made by <img class="tbtitle hidden-sm-and-down" src="@/assets/images/nbd.png" href="www.emiratesnbd.com" width="85" height="25"/> 
+        Made by <img class="tbtitle hidden-sm-and-down" src="@/assets/images/nbdcrop.png" href="www.emiratesnbd.com" width="85" height="25"/> 
       </div>
       <br />
        and <img class="tbtitle hidden-sm-and-down"  src="@/assets/images/dag.png" href="www.dubaiastronomy.com"width="70" height="58"/>

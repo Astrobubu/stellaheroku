@@ -106,8 +106,6 @@
         <span class="tbtitle">Stellarium<sup>Web</sup></span>
       </a>
     </div>
-
- 
   </div>
 </template>
 

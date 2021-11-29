@@ -36,8 +36,7 @@ export default {
     toggleNavigationDrawer: function () {
       this.$store.commit('toggleBool', 'showNavigationDrawer')
     }
-  },
-  components: { TargetSearch }
+  }
 }
 </script>
 

@@ -8,23 +8,30 @@
 
 <template>
   <div style="position: absolute; display:flex; align-items: flex-end;">
-    <div v-if="$store.state.showLocationButton" class="tbtcontainer" style="max-width: 300px; display:flex; align-items: flex-end;">
-      <v-btn class="tmenubt" color="secondary" @click.stop.native="locationClicked()"><v-icon class="hidden-sm-and-up">mdi-map-marker</v-icon><span class="hidden-xs-only">{{ $store.state.currentLocation.short_name }}</span></v-btn>
-    </div>
+   <v-menu v-if="$store.state.showTimeButtons" :close-on-content-click="false" transition="v-slide-y-transition" offset-y top left>
+      <template v-slot:activator="{ on }">
+        <v-btn large class="tmenubt" color="secondary" v-on="on">
+          <v-icon class="hidden-sm-and-up">mdi-clock-outline</v-icon>
+          <span class="hidden-xs-only">
+            <div class="text-subtitle-2">{{ time }}</div>
+            <div class="text-caption">{{ date }}</div>
+          </span>
+        </v-btn>
+      </template>
+      <date-time-picker v-model="pickerDate" :location="$store.state.currentLocation"></date-time-picker>
+    </v-menu>
     <v-spacer></v-spacer>
 
     <bottom-button :label="$t('Constellations')"
                 v-if="$store.state.showConstellationsLinesButton !== false"
                 :img="require('@/assets/images/btn-cst-lines.svg')"
                 img_alt="Constellations Button"
-                class="on"
                 :toggled="$store.state.stel.constellations.lines_visible"
                 @clicked="(b) => { $stel.core.constellations.lines_visible = b; $stel.core.constellations.labels_visible = b }">
     </bottom-button>
     <bottom-button :label="$t('Constellations Art')"
                 v-if="$store.state.showConstellationsArtButton !== false"
                 :img="require('@/assets/images/btn-cst-art.svg')"
-                class="on"
                 img_alt="Constellations Art Button"
                 :toggled="$store.state.stel.constellations.images_visible"
                 @clicked="(b) => { $stel.core.constellations.images_visible = b }">
@@ -88,19 +95,19 @@
     </bottom-button>
 
     <v-spacer></v-spacer>
+    <div class="attribution-container">
+      <div>
+        Made by <img class="tbtitle hidden-sm-and-down" id="stellarium-web-toolbar-logo" src="@/assets/images/nbd.png" width="70" height="45"/> and <img class="tbtitle hidden-sm-and-down" id="stellarium-web-toolbar-logo" src="@/assets/images/dag.png" width="70" height="45"/>
+      </div>
+      <br />
+      <div>Based on</div>
+      <a target="_blank" href="https://github.com/Stellarium/stellarium-web-engine" class="stellarium-logo-container">
+        <img class="tbtitle hidden-sm-and-down" id="stellarium-web-toolbar-logo" src="@/assets/images/logo.svg" width="30" height="30" alt="Stellarium Web Logo"/>
+        <span class="tbtitle">Stellarium<sup>Web</sup></span>
+      </a>
+    </div>
 
-    <v-menu v-if="$store.state.showTimeButtons" :close-on-content-click="false" transition="v-slide-y-transition" offset-y top left>
-      <template v-slot:activator="{ on }">
-        <v-btn large class="tmenubt" color="secondary" v-on="on">
-          <v-icon class="hidden-sm-and-up">mdi-clock-outline</v-icon>
-          <span class="hidden-xs-only">
-            <div class="text-subtitle-2">{{ time }}</div>
-            <div class="text-caption">{{ date }}</div>
-          </span>
-        </v-btn>
-      </template>
-      <date-time-picker v-model="pickerDate" :location="$store.state.currentLocation"></date-time-picker>
-    </v-menu>
+ 
   </div>
 </template>
 

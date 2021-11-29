@@ -12,6 +12,16 @@
   <v-navigation-drawer v-model="nav" app stateless width="300">
     <v-layout column fill-height>
       <v-list dense>
+         <v-expansion-panels
+         v-model="panel"
+        >
+          <v-expansion-panel >
+            <v-expansion-panel-header>How to find the UAE constellation</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <p>press the 1st and 2nd button on the bottom bar</p>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          </v-expansion-panels>
         <template v-for="(item,i) in menuItems">
           <template v-if="$store.state[item.store_show_menu_item] === false"></template>
           <v-subheader v-else-if="item.header" v-text="item.header" class="grey--text text--darken-1" :key="i"/>

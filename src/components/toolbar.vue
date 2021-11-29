@@ -13,7 +13,7 @@
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
       <div v-if="$store.state.showFPS" class="subheader grey--text hidden-sm-and-down pr-2" style="user-select: none;">FPS {{ $store.state.stel ? $store.state.stel.fps.toFixed(1) : '?' }}</div>
-      <div class="subheader grey--text hidden-sm-and-down" style="user-select: none;">FOV {{ fov }}</div>
+      <div class="subheader grey--text" style="user-select: none;">FOV {{ fov }}</div>
     </v-toolbar>
   </div>
 </template>

@@ -11,7 +11,7 @@
 <div class="secondary" style="position:absolute; width: 100%; height: 100%;">
   <v-container style="width: 100%; height: 100%;">
     <v-layout column align-center style="width: 100%; height: 100%;">
-      <img style="padding-top: 10%;" src="@/assets/images/logos.png" width="100%" alt="Logo"/>
+      <img style="padding-top: 10%;" src="@/assets/images/logos.png" width="360px+0.75vw" height="225px+0.75vh" alt="Logo"/>
       <div class="text-h2" style="padding-top: 10%;">Stellarium Web</div>
       <div v-if="$store.state.wasmSupport" style="margin: auto;">
         <div style="display:flex; justify-content: center;">

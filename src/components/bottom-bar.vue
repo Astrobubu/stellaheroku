@@ -73,7 +73,7 @@
       </div>
       <br/>
       <div>
-       and <img class="tbtitle" alt="Dubai Astronomy Group" src="@/assets/images/dag.png" href="www.dubaiastronomy.com" width="95" height="58"/>
+       <img class="tbtitle" alt="Dubai Astronomy Group" src="@/assets/images/dag.png" href="www.dubaiastronomy.com" width="80" height="50"/>
      </div>
     </div>
   </div>

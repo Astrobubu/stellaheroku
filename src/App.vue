@@ -245,7 +245,7 @@ export default {
 
           that.$stel.setFont('regular', process.env.BASE_URL + 'fonts/Roboto-Regular.ttf', 1.38)
           that.$stel.setFont('bold', process.env.BASE_URL + 'fonts/Roboto-Bold.ttf', 1.38)
-          that.$stel.core.constellations.show_only_pointed = false
+          that.$stel.core.constellations.show_only_pointed = true
 
           that.setStateFromQueryArgs()
           that.guiComponent = 'Gui'

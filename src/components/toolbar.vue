@@ -10,10 +10,10 @@
   <div id="toolbar-image">
     <v-toolbar class="transparent" dense>
       <v-app-bar-nav-icon @click="toggleNavigationDrawer"></v-app-bar-nav-icon>
-      <img class="tbtitle hidden-xs-only" id="stellarium-web-toolbar-logo" src="@/assets/images/logo.svg" width="30" height="30" alt="Stellarium Web Logo"/>
-      <span class="tbtitle hidden-sm-and-down">Stellarium<sup>Web</sup></span>
+
       <v-spacer></v-spacer>
-      <target-search></target-search>
+      <img class="tbtitle hidden-xs-only" id="stellarium-web-toolbar-logo" src="@/assets/images/uaelogo.png" width="114" height="56" alt="Stellarium Web Logo"/>
+      <!-- <target-search></target-search> -->
       <v-spacer></v-spacer>
       <div v-if="$store.state.showFPS" class="subheader grey--text hidden-sm-and-down pr-2" style="user-select: none;">FPS {{ $store.state.stel ? $store.state.stel.fps.toFixed(1) : '?' }}</div>
       <div class="subheader grey--text hidden-sm-and-down" style="user-select: none;">FOV {{ fov }}</div>
@@ -24,7 +24,7 @@
 
 <script>
 
-import TargetSearch from '@/components/target-search'
+// import TargetSearch from '@/components/target-search'
 
 export default {
   data: function () {
@@ -43,7 +43,7 @@ export default {
       this.$store.commit('toggleBool', 'showNavigationDrawer')
     }
   },
-  components: { TargetSearch }
+  // components: { TargetSearch }
 }
 </script>
 

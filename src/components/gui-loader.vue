@@ -11,10 +11,11 @@
 <div class="secondary" style="position:absolute; width: 100%; height: 100%;">
   <v-container style="width: 100%; height: 100%;">
     <v-layout column align-center style="width: 100%; height: 100%;">
-      <div class="text-h2" style="padding-top: 10%;"><img src="@/assets/images/logos.png" width="92" height="92" alt="Stellarium Web Logo"/> Stellarium Web</div>
+      <img src="@/assets/images/logos.png" width="360" height="225" alt="Logo"/> 
+      <div class="text-h2" style="padding-top: 10%;">Stellarium Web</div>
       <div v-if="$store.state.wasmSupport" style="margin: auto;">
         <div style="display:flex; justify-content: center;">
-          <p class="grey--text"><i18n path="Loading {0}, the online Star Map"> </p>
+          <p class="grey--text"><i18n path="Loading {0}, the online Star Map of the UAE"> </p>
         </div>
         <div style="display:flex; justify-content: center;">
           <v-progress-circular indeterminate v-bind:size="70" v-bind:width="7"  class="grey--text"/>

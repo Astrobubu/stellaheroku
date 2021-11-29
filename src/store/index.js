@@ -28,7 +28,8 @@ const createStore = () => {
     state: {
       stel: null,
       initComplete: false,
-
+      showConstellationsLinesButton: true,
+      showConstellationsArtButton: true,
       showNavigationDrawer: false,
       showDataCreditsDialog: false,
       showViewSettingsDialog: false,

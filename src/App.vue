@@ -94,7 +94,7 @@ export default {
         { title: this.$t('Planets Tonight'), icon: 'mdi-panorama-fisheye', store_var_name: 'showPlanetsVisibilityDialog', store_show_menu_item: 'showPlanetsVisibilityMenuItem' },
         { divider: true }
       ].concat(this.getPluginsMenuItems()).concat([
-        { title: this.$t('Data Credits'), footer: true, icon: 'mdi-copyright', store_var_name: 'showDataCreditsDialog' }
+        { title: this.$t('Credits'), footer: true, icon: 'mdi-copyright', store_var_name: 'showDataCreditsDialog' }
       ]),
       menuComponents: [].concat(this.getPluginsMenuComponents()),
       guiComponent: 'GuiLoader',
@@ -245,7 +245,7 @@ export default {
 
           that.$stel.setFont('regular', process.env.BASE_URL + 'fonts/Roboto-Regular.ttf', 1.38)
           that.$stel.setFont('bold', process.env.BASE_URL + 'fonts/Roboto-Bold.ttf', 1.38)
-          that.$stel.core.constellations.show_only_pointed = true
+          that.$stel.core.constellations.show_only_pointed = false
 
           that.setStateFromQueryArgs()
           that.guiComponent = 'Gui'

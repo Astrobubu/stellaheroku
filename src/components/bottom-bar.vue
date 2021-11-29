@@ -97,14 +97,10 @@
     <v-spacer></v-spacer>
     <div class="attribution-container">
       <div>
-        Made by <img class="tbtitle hidden-sm-and-down" id="stellarium-web-toolbar-logo" src="@/assets/images/nbd.png" width="70" height="45"/> and <img class="tbtitle hidden-sm-and-down" id="stellarium-web-toolbar-logo" src="@/assets/images/dag.png" width="70" height="45"/>
+        Made by <img class="tbtitle hidden-sm-and-down" src="@/assets/images/nbd.png" href="www.emiratesnbd.com" width="85" height="25"/> 
       </div>
       <br />
-      <div>Based on</div>
-      <a target="_blank" href="https://github.com/Stellarium/stellarium-web-engine" class="stellarium-logo-container">
-        <img class="tbtitle hidden-sm-and-down" id="stellarium-web-toolbar-logo" src="@/assets/images/logo.svg" width="30" height="30" alt="Stellarium Web Logo"/>
-        <span class="tbtitle">Stellarium<sup>Web</sup></span>
-      </a>
+       and <img class="tbtitle hidden-sm-and-down"  src="@/assets/images/dag.png" href="www.dubaiastronomy.com"width="70" height="58"/>
     </div>
   </div>
 </template>

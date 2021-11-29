@@ -19,10 +19,7 @@
     </v-toolbar>
   </div>
 </template>
-
 <script>
-
-
 export default {
   data: function () {
     return {
@@ -40,7 +37,7 @@ export default {
       this.$store.commit('toggleBool', 'showNavigationDrawer')
     }
   },
-  // components: { TargetSearch }
+  components: { TargetSearch }
 }
 </script>
 

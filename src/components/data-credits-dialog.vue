@@ -53,6 +53,9 @@
       <h3>Others</h3>
       <p>Landscape images by Fabien Chereau</p>
       <p>Constellation lines by Fabien Chereau</p>
+      <p>Modified by Dubai Astronomy Group</p>
+      <p>Sposored by Emirates NBD</p>
+
       <p>All other graphics by <a href="https://noctua-software.com" target="_blank" rel="noopener">Noctua Software</a></p>
     </v-card-text>
     <v-card-actions>

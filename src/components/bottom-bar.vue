@@ -205,4 +205,5 @@ export default {
 .stellarium-logo-container span {
   color: #fff;
 }
+
 </style>

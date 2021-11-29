@@ -11,8 +11,8 @@
 <div class="secondary" style="position:absolute; width: 100%; height: 100%;">
   <v-container style="width: 100%; height: 100%;">
     <v-layout column align-center style="width: 100%; height: 100%;">
-      <img style="padding-top: 10%;" src="@/assets/images/logos.png" width="100%" height="70%" alt="Logo"/>
-      <div class="text-h2" style="padding-top: 10%;">Stellarium Web</div>
+      <img style="padding-top: 10%;" class="cover" src="@/assets/images/logos.png" alt="Logo"/>
+      <div class="text-h2" style="padding-top: 10%;">Stellarium Web UAE</div>
       <div v-if="$store.state.wasmSupport" style="margin: auto;">
         <div style="display:flex; justify-content: center;">
           <p class="grey--text"><i18n path="Loading {0}, the online Star Map of the UAE"> </p>
@@ -44,4 +44,9 @@ export default {
 </script>
 
 <style>
+.cover {
+  object-fit: cover;
+  width: 1080px;
+  height: 675px;
+}
 </style>

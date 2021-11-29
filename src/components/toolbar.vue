@@ -11,7 +11,6 @@
     <v-toolbar class="transparent" dense>
       <v-app-bar-nav-icon @click="toggleNavigationDrawer"></v-app-bar-nav-icon>
       <v-spacer></v-spacer>
-      <img class="hidden-xs-only" src="@/assets/images/uaelogo.png" width="94" height="36" alt="Stellarium Web Logo"/>
       <v-spacer></v-spacer>
       <div v-if="$store.state.showFPS" class="subheader grey--text hidden-sm-and-down pr-2" style="user-select: none;">FPS {{ $store.state.stel ? $store.state.stel.fps.toFixed(1) : '?' }}</div>
       <div class="subheader grey--text hidden-sm-and-down" style="user-select: none;">FOV {{ fov }}</div>

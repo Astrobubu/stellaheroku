@@ -99,7 +99,7 @@
       <div>
         Brought to you by <img class="tbtitle" alt="Emirates NBD" src="@/assets/images/nbdcrop.png" href="www.emiratesnbd.com" width="85" height="25"/>
       </div>
-      <br />
+      <br/> 
       <div>
        and <img class="tbtitle" alt="Dubai Astronomy Group" src="@/assets/images/dag.png" href="www.dubaiastronomy.com" width="95" height="58"/>
      </div>

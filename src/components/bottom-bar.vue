@@ -97,11 +97,11 @@
     <v-spacer></v-spacer>
     <div class="attribution-container">
       <div>
-        Brought to you by <img class="tbtitle hidden-sm-and-down" alt="Emirates NBD" src="@/assets/images/nbdcrop.png" href="www.emiratesnbd.com" width="85" height="25"/>
+        Brought to you by <img class="tbtitle" alt="Emirates NBD" src="@/assets/images/nbdcrop.png" href="www.emiratesnbd.com" width="85" height="25"/>
       </div>
       <br />
       <div>
-       and <img class="tbtitle hidden-sm-and-down" alt="Dubai Astronomy Group" src="@/assets/images/dag.png" href="www.dubaiastronomy.com" width="95" height="58"/>
+       and <img class="tbtitle" alt="Dubai Astronomy Group" src="@/assets/images/dag.png" href="www.dubaiastronomy.com" width="95" height="58"/>
      </div>
     </div>
   </div>

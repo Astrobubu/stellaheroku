@@ -13,14 +13,16 @@
     </div>
     <v-spacer></v-spacer>
 
-    <bottom-button :label="$t('Constellations')"
+    <bottom-button :value="true"
+                :label="$t('Constellations')"
                 v-if="$store.state.showConstellationsLinesButton !== false"
                 :img="require('@/assets/images/btn-cst-lines.svg')"
                 img_alt="Constellations Button"
                 :toggled="$store.state.stel.constellations.lines_visible"
                 @clicked="(b) => { $stel.core.constellations.lines_visible = b; $stel.core.constellations.labels_visible = b }">
     </bottom-button>
-    <bottom-button :label="$t('Constellations Art')"
+    <bottom-button :value="true"
+                :label="$t('Constellations Art')"
                 v-if="$store.state.showConstellationsArtButton !== false"
                 :img="require('@/assets/images/btn-cst-art.svg')"
                 img_alt="Constellations Art Button"

@@ -360,4 +360,115 @@ html, body, #app {
   min-height: 100%!important;
 }
 
+a {
+  color: #82b1ff;
+}
+
+a:link {
+  text-decoration-line: none;
+}
+
+.divider_menu {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+html {
+  overflow-y: visible;
+}
+
+html, body, #app {
+  overflow-y: visible!important;
+  overflow-x: visible;
+  position: fixed!important;
+  width: 100%;
+  height: 100%;
+  padding: 0!important;
+  font-size: 14px;
+}
+
+.fullscreen {
+  overflow-y: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding: 0!important;
+}
+
+.click-through {
+  pointer-events: none;
+}
+
+.get-click {
+  pointer-events: all;
+}
+
+.dialog {
+  background: transparent;
+}
+
+.menu__content {
+  background-color: transparent!important;
+}
+
+#stel {height: 100%; width: 100%; position: absolute;}
+#stel-canvas {z-index: -10; width: 100%; height: 100%;}
+
+.right_panel {
+  padding-right: 400px;
+}
+
+.v-btn {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.v-application--wrap {
+  min-height: 100%!important;
+}
+
+.rubber-duck {
+  position: absolute;
+  z-index: 1000;
+  animation: rubber-duck-spin infinite 60s linear;
+  top: 150px;
+}
+.rubber-duck img {
+  width: 50px;
+}
+
+.v-expansion-panel.v-item--active button {
+  color: #f2c802;
+  font-weight: bold;
+}
+
+.theme--dark.v-expansion-panels .v-expansion-panel{
+  background: none!important;
+  border: none!important;
+}
+
+.Cookie.Cookie {
+  position: inherit;
+}
+
+@keyframes rubber-duck-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+  0%,
+  100% {
+    left: 0;
+  }
+
+  50% {
+    left: 100%;
+  }
+}
+
 </style>

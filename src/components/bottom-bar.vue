@@ -70,7 +70,7 @@
     <div class="attribution-container">
       <div>Brought to you by</div>
       <div>
-       <img class="tbtitle" alt="Emirates NBD" src="@/assets/images/nbdcrop.png" href="www.emiratesnbd.com" width="85" height="25"/>
+       <img class="tbtitle" alt="Emirates NBD" src="@/assets/images/nbdcrop.png" href="www.emiratesnbd.com" width="85" height="130"/>
      </div>
     </div>
   </div>

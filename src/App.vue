@@ -17,8 +17,8 @@
         >
           <v-expansion-panel >
             <v-expansion-panel-header>How to view the Constellation of the Emirates?</v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <p>Click to turn on the ‘Constellations’ <img class="tbtitle" src="@/assets/images/btn-cst-lines.svg" width="30" height="30"/> and ‘Constellations Art’ <img class="tbtitle" src="@/assets/images/btn-cst-art.svg" width="30" height="30"/> icons at the bottom of the page and view the Constellation of the Emirates.</p>
+            <v-expansion-panel-content style="line-height: 2em;">
+              <p>Click to turn on the ‘Constellations’ <img class="tbtitle" style="margin-bottom: 0.25em;" src="@/assets/images/btn-cst-lines.svg" width="20" height="20"/> and ‘Constellations Art’ <img class="tbtitle" style="margin-bottom: 0.25em;" src="@/assets/images/btn-cst-art.svg" width="20" height="20"/> icons at the bottom of the page and view the Constellation of the Emirates.</p>
             </v-expansion-panel-content>
           </v-expansion-panel>
           </v-expansion-panels>
@@ -47,6 +47,7 @@
           </template>
         </template>
       </v-list>
+      <br/>
       <template v-for="(item,i) in menuComponents">
         <component :is="item" :key="i"></component>
       </template>

@@ -338,7 +338,9 @@ html, body, #app {
 .dialog {
   background: transparent;
 }
-
+.v-list-item{
+  padding-top: 7px; 
+}
 .menu__content {
   background-color: transparent!important;
 }

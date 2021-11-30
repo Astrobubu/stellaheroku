@@ -16,9 +16,9 @@
          v-model="panel"
         >
           <v-expansion-panel >
-            <v-expansion-panel-header>How to find the UAE constellation</v-expansion-panel-header>
+            <v-expansion-panel-header>How to view the Constellation of the Emirates?</v-expansion-panel-header>
             <v-expansion-panel-content>
-              <p>press the 1st and 2nd button on the bottom bar</p>
+              <p>Click to turn on the ‘Constellations’ <img class="tbtitle" src="@/assets/images/btn-cst-lines.svg" width="30" height="30"/> and ‘Constellations Art’ <img class="tbtitle" src="@/assets/images/btn-cst-art.svg" width="30" height="30"/> icons at the bottom of the page and view the Constellation of the Emirates.</p>
             </v-expansion-panel-content>
           </v-expansion-panel>
           </v-expansion-panels>

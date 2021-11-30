@@ -68,8 +68,9 @@
 
     <v-spacer></v-spacer>
     <div class="attribution-container">
+      <div>Brought to you by</div>
       <div>
-        Brought to you by <img class="tbtitle" alt="Emirates NBD" src="@/assets/images/nbdcrop.png" href="www.emiratesnbd.com" width="85" height="25"/>
+       <img class="tbtitle" alt="Emirates NBD" src="@/assets/images/nbdcrop.png" href="www.emiratesnbd.com" width="85" height="25"/>
       </div>
       <br/>
       <div>

@@ -11,8 +11,9 @@
 <div class="secondary" style="position:absolute; width: 100%; height: 100%;">
   <v-container style="width: 100%; height: 100%;">
     <v-layout column align-center style="width: 100%; height: 100%;">
-      <img style="padding-top: 10%;" class="cover" src="@/assets/images/logos.png" alt="Logo"/>
-      <div class="text-h2" style="padding-top: 10%;">Stellarium Web UAE</div>
+      <img style="padding-top: 10%;" class="cover hidden-sm-and-down" src="@/assets/images/logos.png" alt="Logo"/>
+      <img style="padding-top: 10%; width: 400px" class="cover hidden-xs-only" src="@/assets/images/logos.png" alt="Logo"/>
+      <div class="text-h4" style="padding-top: 10%;"><center>Stellarium Web UAE</center></div>
       <div v-if="$store.state.wasmSupport" style="margin: auto;">
         <div style="display:flex; justify-content: center;">
           <p class="grey--text"><i18n path="Loading {0}, the online Star Map of the UAE"> </p>

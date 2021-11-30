@@ -71,10 +71,6 @@
       <div>Brought to you by</div>
       <div>
        <img class="tbtitle" alt="Emirates NBD" src="@/assets/images/nbdcrop.png" href="www.emiratesnbd.com" width="85" height="25"/>
-      </div>
-      <br/>
-      <div>
-       <img class="tbtitle" alt="Dubai Astronomy Group" src="@/assets/images/dag.png" href="www.dubaiastronomy.com" width="80" height="50"/>
      </div>
     </div>
   </div>

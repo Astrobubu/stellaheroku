@@ -51,10 +51,11 @@
       <h3>Minor Planets</h3>
       <p>All data comes from the IAU Minor Planet Center <a href="https://www.minorplanetcenter.net/data" target="_blank" rel="noopener">https://www.minorplanetcenter.net/data</a>. <i>This research has made use of data and/or services provided by the International Astronomical Union's Minor Planet Center.</i></p>
       <h3>Others</h3>
+      <p></p>
       <p>Landscape images by Fabien Chereau</p>
       <p>Constellation lines by Fabien Chereau</p>
       <p>Modified by Dubai Astronomy Group</p>
-      <p>Sposored by Emirates NBD</p>
+      <p>Sponsored by Emirates NBD</p>
 
       <p>All other graphics by <a href="https://noctua-software.com" target="_blank" rel="noopener">Noctua Software</a></p>
     </v-card-text>

@@ -10,6 +10,7 @@
   <div id="toolbar-image">
     <v-toolbar class="transparent" dense>
       <v-app-bar-nav-icon @click="toggleNavigationDrawer"></v-app-bar-nav-icon>
+      <h1 class="toolbar-main-title">← How to use</h1>
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
       <div v-if="$store.state.showFPS" class="subheader grey--text hidden-sm-and-down pr-2" style="user-select: none;">FPS {{ $store.state.stel ? $store.state.stel.fps.toFixed(1) : '?' }}</div>

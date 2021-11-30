@@ -339,7 +339,7 @@ html, body, #app {
   background: transparent;
 }
 .v-list-item{
-  padding-top: 7px; 
+  padding-top: 7px;
 }
 .menu__content {
   background-color: transparent!important;
